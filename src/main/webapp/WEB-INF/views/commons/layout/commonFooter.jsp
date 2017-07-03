@@ -22,6 +22,8 @@
             <a class="" href="<%= request.getContextPath() %>/open.language" style="cursor: pointer;">
             <% if (jspUtil.locale().getLanguage().equals("ja")) { %>
                 <i class="flag-icon flag-icon-jp"></i>
+            <% } else if (jspUtil.locale().getLanguage().equals("zh")) { %>
+                <i class="flag-icon flag-icon-cn"></i>
             <% } else { %>
                 <i class="flag-icon flag-icon-us"></i>
             <% } %>

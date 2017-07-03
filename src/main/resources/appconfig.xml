@@ -20,6 +20,10 @@
             <label>us</label>
             <value>en</value>
         </language>
+        <language>
+            <label>zh</label>
+            <value>zh</value>
+        </language>
     </languages>
     <addUserProcess>org.support.project.knowledge.logic.AddUserProcessLogic</addUserProcess>
 </app>
