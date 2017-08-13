@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<connectionConfig>
+	<name>sql_connection</name>
+	<driverClass>com.mysql.jdbc.Driver</driverClass>
+	<URL>jdbc:mysql://localhost:6033/knowledge_db</URL>
+	<user>root</user>
+	<password>43355828</password>
+	<schema>public</schema>
+	<maxConn>5</maxConn>
+	<autocommit>false</autocommit>
+</connectionConfig>
